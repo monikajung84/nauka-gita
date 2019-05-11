@@ -2,3 +2,17 @@
 *, *::before, *::after {
     box-sizing: border-box; 
 }
+
+body {
+    background-color: #dbccbc;
+    margin: 0 auto;
+    color: #201a13;
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.7; 
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
