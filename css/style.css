@@ -25,3 +25,13 @@ body {
 p{
     text-align: center;
 }
+footer{
+    background-color: rgb(202, 145, 105);
+    padding-top: 10px;
+    padding-bottom: 10;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
