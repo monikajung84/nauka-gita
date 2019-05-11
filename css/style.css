@@ -14,5 +14,14 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 20px; 
+    padding: 10px 20px; 
+}
+.container h1, h2 {
+    text-align: center;
+}
+.text {
+    padding-top: 20px;
+}
+p{
+    text-align: center;
 }
