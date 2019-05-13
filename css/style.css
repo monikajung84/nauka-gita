@@ -2,25 +2,36 @@
 *, *::before, *::after {
     box-sizing: border-box; 
 }
+/*font-family: 'Lobster Two', cursive;
+font-family: 'Cookie', cursive; */
 
 body {
     background-color: #FFA07A;
     margin: 0 auto;
     color: #201a13;
     font-size: 16px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Lobster Two', cursive;
     line-height: 1.7; 
 }
 .container {
-    max-width: 1140px;
     margin: 0 auto;
-    padding: 10px 20px; 
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-image: url(../image/concert.jpg);
+}
+.navigation {
+    position: absolute;
+    display: inline-block;
+    transform: rotate(-90deg);
+    font-size: 20px;
 }
 .container h1, h2 {
     text-align: center;
+    font-size: 48px;
 }
 .text {
     padding-top: 20px;
+    font-family: 'Cookie', cursive;
 }
 p{
     text-align: center;
