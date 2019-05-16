@@ -1,0 +1,9 @@
+
+komenda do wywo³ania:
+autoprefixer-cli -o main.prefixed.css main.css
+autoprefixer-cli -o main.prefixed.css style.css
+autoprefixer-cli -o plik wynikowy plik wjœciowy
+
+nu-html-checker
+nu-html-checker index.html
+
